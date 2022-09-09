@@ -4,9 +4,9 @@ RUN npm install -g pm2
 RUN mkdir /app
 WORKDIR /app
 
-ENV STKEY_ID test
-ENV STKEY_NAME 本地测试
-ENV STKEY_SERVER_BY your name
+ENV STKEY_ID lin
+ENV STKEY_NAME 香港
+ENV STKEY_SERVER_BY 茗
 
 ADD package*.json ./
 RUN npm install
